@@ -1,0 +1,435 @@
+/*plantilla ccs creada por Davide*/
+/*-------------------------------------------------------------------*/
+
+/* 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+apply a natural box layout model to all elements, but allowing components to change
+*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/*------------------------------------------------------------------------*/
+
+body {
+  background-color: black;
+  color: antiquewhite;
+  height: 94vh;
+}
+
+h1 {
+  color: burlywood;
+  text-align: center;
+  width: 100%;
+  height: 2vh;
+  margin: 6vh 0vh 0vh 0vh;
+}
+arrow-r {
+  width: 32px;
+  height: 28px;
+}
+
+.art-tab {
+  width: 100%;
+}
+
+h3 {
+  color: burlywood;
+  text-align: center;
+}
+
+.p-color {
+  text-align: center;
+  color: #deb887;
+}
+
+.tab-col {
+  border-spacing: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: right;
+  color: #deb887;
+}
+
+.i64 {
+  background-color: #de7a22;
+}
+.i62 {
+  background-color: #e2dbb0;
+}
+.i60 {
+  background-color: #763626;
+}
+.i58 {
+  background-color: #46211a;
+}
+.i56 {
+  background-color: #f94144;
+}
+.i54 {
+  background-color: #deb887;
+}
+.i52 {
+  background-color: #a43820;
+}
+.i50 {
+  background-color: #f18701;
+}
+
+.i58 {
+  background-color: #f35b04;
+}
+
+.i30 {
+  background-color: #efe195;
+}
+
+.i32 {
+  background-color: #db9501;
+}
+
+.i38 {
+  background-color: #f4cc70;
+}
+
+.i40 {
+  background-color: #ee6123;
+}
+
+.i42 {
+  background-color: #f7b801;
+}
+.i44 {
+  background-color: #a2c523;
+}
+.i46 {
+  background-color: #cb9d00;
+}
+
+.i48 {
+  background-color: #fa003f;
+}
+
+.i36 {
+  background-color: #486b00;
+}
+
+.i34 {
+  background-color: #7678ed;
+}
+
+.i28 {
+  background-color: #2e4600;
+}
+
+.i26 {
+  background-color: #3d348b;
+}
+
+.a2 {
+  background-color: #004d47;
+}
+
+.a6 {
+  background-color: #0a1fff;
+}
+
+.a8 {
+  background-color: #ffbe0b;
+}
+.b2 {
+  background-color: #52958b;
+}
+
+.b6 {
+  background-color: #4757ff;
+}
+
+.b8 {
+  background-color: #fb5607;
+}
+.c2 {
+  background-color: #a4cabc;
+}
+.c8 {
+  background-color: #ff006e;
+}
+
+.c6 {
+  background-color: #858fff;
+}
+.c4 {
+  background-color: #f78b2d;
+}
+.b4 {
+  background-color: #7aa802;
+}
+
+.d2 {
+  background-color: #cde1d7;
+}
+
+.d4 {
+  background-color: #e4b600;
+}
+
+.d6 {
+  background-color: #c2c7ff;
+}
+
+.d8 {
+  background-color: #00f5d4;
+}
+.e2 {
+  background-color: #eaece1;
+}
+
+.e4 {
+  background-color: #c8ff00;
+}
+
+.e6 {
+  background-color: #7b2cbf;
+}
+
+.e8 {
+  background-color: #3a86ff;
+}
+.a4 {
+  background-color: #c7db00;
+}
+
+.tab2-col {
+  border-spacing: 10px; /* Añade 10 píxeles de espacio entre las celdas */
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: right;
+  color: #deb887;
+}
+
+.it2 {
+  background-color: #7d6608;
+}
+
+.it4 {
+  background-color: #1d8348;
+}
+
+.it6 {
+  background-color: #626567;
+}
+
+.it8 {
+  background-color: #117a65;
+}
+
+.it10 {
+  background-color: #21618c;
+}
+
+.it12 {
+  background-color: #6c3483;
+}
+.it14 {
+  background-color: #ff0000;
+}
+.it16 {
+  background-color: #f50057;
+}
+
+.it18 {
+  background-color: #b7950b;
+}
+
+.it20 {
+  background-color: #28b463;
+}
+.it22 {
+  background-color: #909497;
+}
+.it24 {
+  background-color: #16a085;
+}
+
+.it26 {
+  background-color: #2e86c1;
+}
+
+.it28 {
+  background-color: #8e44ad;
+}
+
+.it30 {
+  background-color: #d50000;
+}
+
+.it32 {
+  background-color: #fe2aa7;
+}
+
+.it34 {
+  background-color: #b7950b;
+}
+
+.it36 {
+  background-color: #58d68d;
+}
+
+.it38 {
+  background-color: #bdc3c7;
+}
+
+.it40 {
+  background-color: #73c6b6;
+}
+
+.it42 {
+  background-color: #5dade2;
+}
+
+.it44 {
+  background-color: #bb8fce;
+}
+
+.it46 {
+  background-color: #ff1744;
+}
+
+.it48 {
+  background-color: #d500f9;
+}
+
+.it50 {
+  background-color: #f7dc6f;
+}
+
+.it52 {
+  background-color: #abebc6;
+}
+
+.it54 {
+  background-color: #d7dbdd;
+}
+
+.it56 {
+  background-color: #73c6b6;
+}
+
+.it58 {
+  background-color: #d6eaf8;
+}
+
+.it60 {
+  background-color: #d7bde2;
+}
+.it62 {
+  background-color: #fc486d;
+}
+
+.it64 {
+  background-color: #ab47bc;
+}
+
+.it66 {
+  background-color: #f9e79f;
+}
+
+.it68 {
+  background-color: #d5f5e3;
+}
+
+.it70 {
+  background-color: #e5e8e8;
+}
+
+.it72 {
+  background-color: #d0ece7;
+}
+
+.it74 {
+  background-color: #eaf2f8;
+}
+
+.it76 {
+  background-color: #e040fb;
+}
+
+.it78 {
+  background-color: #fe499c;
+}
+
+.it80 {
+  background-color: #7c4dff;
+}
+
+.it82 {
+  background-color: #fcf3cf;
+}
+
+.it84 {
+  background-color: #e9f7ef;
+}
+
+.it86 {
+  background-color: #aeb6bf;
+}
+
+.it88 {
+  background-color: #48c9b0;
+}
+
+.it90 {
+  background-color: #a9cce3;
+}
+
+.it92 {
+  background-color: #d500f9;
+}
+.it94 {
+  background-color: #ff00c9;
+}
+
+.it96 {
+  background-color: #536dfe;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  text-align: auto;
+  width: 80vw;
+  margin-left: 5vw;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+a:link {
+  color: #deb887;
+}
+
+a:visited {
+  color: #deb887;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: #f18701;
+  font-size: 1.03rem;
+}
+
+a:active {
+  color: #deb887;
+  font-size: 1rem;
+}
+
+a:focus {
+  color: #deb887;
+  font-size: 1rem;
+}
