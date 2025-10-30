@@ -29,18 +29,61 @@ h1 {
   height: 2vh;
   margin: 6vh 0vh 0vh 0vh;
 }
-arrow-r {
-  width: 32px;
-  height: 28px;
-}
-
-.art-tab {
-  width: 100%;
-}
-
 h3 {
   color: burlywood;
   text-align: center;
+}
+.art-tab {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (min-width: 360px) {
+  .art-tab {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .art-tab {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .art-tab {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .art-tab {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .art-tab {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .art-tab {
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .art-tab {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }
 
 .p-color {
@@ -49,14 +92,16 @@ h3 {
 }
 
 .tab-col {
-  border-spacing: 10px;
+  border-spacing: 10px; /* Añade 10 píxeles de espacio entre las celdas */
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
   text-align: right;
   color: #deb887;
 }
 
+td {
+  width: 80px;
+}
 .i64 {
   background-color: #de7a22;
 }
@@ -205,15 +250,6 @@ h3 {
   background-color: #c7db00;
 }
 
-.tab2-col {
-  border-spacing: 10px; /* Añade 10 píxeles de espacio entre las celdas */
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  text-align: right;
-  color: #deb887;
-}
-
 .it2 {
   background-color: #7d6608;
 }
@@ -319,7 +355,7 @@ h3 {
 }
 
 .it56 {
-  background-color: #73c6b6;
+  background-color: #c3f7ec;
 }
 
 .it58 {
@@ -350,11 +386,11 @@ h3 {
 }
 
 .it72 {
-  background-color: #d0ece7;
+  background-color: #88e2d0;
 }
 
 .it74 {
-  background-color: #eaf2f8;
+  background-color: #c9e9fc;
 }
 
 .it76 {
