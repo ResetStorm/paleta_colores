@@ -17,6 +17,7 @@ html {
 /*------------------------------------------------------------------------*/
 
 body {
+  font-family: sans-serif;
   background-color: black;
   color: antiquewhite;
   height: 94vh;
@@ -469,3 +470,4 @@ a:focus {
   color: #deb887;
   font-size: 1rem;
 }
+
